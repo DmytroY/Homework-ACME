@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 0;
+    border-color: green;
 }
 
 header {
@@ -15,13 +16,14 @@ header {
     margin: auto;
     align-items: center;
     justify-content: space-between;
+    height: 72px;
     min-width: 1024px;
     max-width: 1920px;
 }
 
 .logo img {
     vertical-align: middle;
-    margin-left: 10px;
+    margin-left: 16px;
 }
 
 .menu {
@@ -31,9 +33,10 @@ header {
 }
 
 .menuButton {
+    font-size: 16px;
     border-radius: 4px;
-    color: #E2E5D0;
-    padding: 10px;
+    color: white;
+    padding: 7px 10px 7px 10px;
     margin: 20px;
     text-decoration: none;
 }
@@ -43,22 +46,37 @@ header {
 }
 
 .cart {
-    background: #1F2C25;
-    border-color: #1F2C25;
-    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-color: black;
+    height: 32px;
+    width: 50px;
+    margin-right: 16px;
     border-radius: 4px;
     position: relative;
+}
+
+.cartIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartIcon img {
+    width: 50%;
 }
 
 .cartN {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E2E5D0;
+    background-color: white;
     color: black;
-    width: 16px;
-    height: 16px;
-    border-radius: 8px;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
     text-align: center;
     font-size: 10px;
     font-weight: bold;
@@ -74,7 +92,7 @@ header {
     flex-direction: column;
     margin: auto;
     justify-content: space-around;
-    background-color: #E2E5D0;
+    background-color: gray;
     text-align: center;
     font-size: 10px;
     font-weight: bold;
@@ -84,7 +102,7 @@ header {
 }
 
 .cartItem {
-    font-size: 18px;
+    font-size: 15px;
     margin: 8px;
     color: black;
     text-decoration: none;
